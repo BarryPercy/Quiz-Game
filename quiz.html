@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet'>
   </head>
   <body>
-    <script src="scripts.js">
-    </script>
+    <div id="all-content">
+      <h1>Quiz Time!</h1>
+      <div id="display">
+        <div id="initial-screen">
+          <p>Welcome to the Quiz!</p> 
+          <p>Enter your name, select your difficulty and then click play!</p>
+          <input type="text" id="player-name" placeholder="Enter Your Name Here!" />
+          <select id="my-dropdown">
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+          </select>
+          <select id="number-of-questions">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <br>
+          <input class="button" type="button" value="Play" onclick="startGame()"/>
+        </div>
+        <div id="during-game" class="hidden">
+          <h2 id="name-of-player">Name: </h2>
+          <h2 id="current-score">Score: </h2>
+          <hr>
+          <h3 id="current-question">Question: </h3>
+          <div id="display-question"></div>
+          <div id="previous-answer"></div>
+        </div>
+        <div id="end-of-game">
+
+        </div>
+      </div>
+      <script src="scripts.js"></script>
+    </div>
   </body>
 </html>

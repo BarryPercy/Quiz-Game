@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    background-color: #EA047E;
+    font-family: 'PT Sans';
+}
+
+#all-content{
+    display:block;
+    margin:auto;
+    width:53%;
+    background-color: #FF6D28;
+    text-align: center;
+    padding:50px;
+    margin-top:100px;
+    border-radius: 50px;
+    border:solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+#all-content h1{
+    font-size: 80px;
+    text-shadow: 2px 2px 2px #999;
+}
+#initial-screen{
+    font-size:50px;
+}
+.button{
+    background-color: #FCE700; 
+    color: black;
+    border-color:#FCE700;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+    border-radius: 20px;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+  }
+
+#player-name{
+    width:300px;
+    height:40px;
+    font-size: 20px;
+    text-align: center;
+}
+select{
+    width:100px;
+    height:45px;
+    background-color: #FCE700;
+    margin-bottom:10px;
+    transform: translateY(3px);
+    font-family: 'PT Sans';
+    text-align: center;
+    font-size: 23px;
+}
+.hidden{
+    display:none;
+}
+h2{
+    text-align: center;
+}
+.question{
+    display: block;
+    background-color: #00F5FF;
+    border-radius: 40px;
+    width:50%;
+    margin:auto;
+    padding:20px;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    font-size: 25px;
+}
+.answer{
+    display: inline-block;
+    background-color: #FCE700;
+    border-radius: 30px;
+    width:30%;
+    margin:20px;
+    padding:20px;
+    cursor: pointer;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    font-size:20px;
+}
+
+.submit{
+    display: inline-block;
+    background-color: #00F5FF;
+    border-radius: 30px;
+    width:8%;
+    margin:20px;
+    padding:10px;
+    cursor: pointer;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+}
+.final-score{
+    color:red;
+    font-weight: bold;
+}
+.previous-answer{
+    color:red;
+    font-weight: bold;
+    font-size: 30px;
+}

@@ -28,3 +28,19 @@
           Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
         */
     -->
+
+// HINTS
+    // IF YOU ARE DISPLAYING ALL THE QUESTIONS AT ONCE:
+    // For each question, create a container for wrapping it; then create a radio button
+    // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
+    // with, as options, both the correct answer and the incorrect ones
+    // (you'll probably need to google how to get the value from a radio button in JS to evaluate the final score)
+    //
+    // IF YOU ARE DISPLAYING ONE QUESTION AT A TIME
+    // Display the first question with the text and the radio buttons
+    // when the user selects an answer, pick the next question from the array and replace the old one with it
+    // saving the user's choice in a variable
+
+      // How to calculate the result? You can do it in 2 ways:
+  // If you are presenting all the questions together, just take all the radio buttons and check if the selected answer === correct_answer
+  // If you are presenting one question at a time, just add one point or not to the user score if the selected answer === correct_answer
