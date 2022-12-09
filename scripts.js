@@ -92,7 +92,7 @@ questions=[
   let dropdown = document.getElementById('my-dropdown'); //difficulty event listener;
   dropdown.addEventListener('change',function() {
     currentDifficulty = dropdown.options[dropdown.selectedIndex].value;
-    console.log(currentDifficulty)
+    console.log(currentDifficulty);
   });
   let numberDropdown = document.getElementById('number-of-questions'); //number of questions event listener;
   numberDropdown.addEventListener('change',function() {
