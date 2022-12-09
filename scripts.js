@@ -90,8 +90,7 @@ questions=[
   let endOfGameDiv = document.getElementById("end-of-game")
 
   let dropdown = document.getElementById('my-dropdown'); //difficulty event listener;
-  dropdown.addEventListener('change',
-   function() {
+  dropdown.addEventListener('change',function() {
     currentDifficulty = dropdown.options[dropdown.selectedIndex].value;
     console.log(currentDifficulty)
   });
@@ -114,8 +113,6 @@ function startGame(){
     currentQuestionElement.innerText += " "+currentQuestion;
     let currentGameQuestions = fillQuestions();
     displayQuestion(currentGameQuestions);
-    
-
 }
 function updateCurrentScore(){
   currentScoreElement.innerText="Score: "+currentScore;
